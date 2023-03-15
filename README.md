@@ -13,6 +13,6 @@ Prepared for deployment on [Railway](https://railway.app/)
 #### Variables
 
 - `BOT_TOKEN` - Telegram Bot Token  
-- `RAILWAY_APP_NAME` - Part of the URL with the name of the application. (After Deploying go to 'Settings' of the project and press on "Generate Domain". It'll generate a domain for your app. Just copy the `yourdomainname.up` (Yeah, don't copy the rest :) and this will be a value for your `RAILWAY_APP_NAME`.  
-- `CHAT_ID` - ID of the telegram chat where the bot is allowed to work. You can add more, just take a look at available values at `WORKS_CHATS` env in the file [`config.py`](chat_gpt_bot/config.py).  
+- `RAILWAY_APP_NAME` - Part of the URL with the name of the application. (After Deploying go to 'Settings' of the project and press on "Generate Domain". It'll generate a domain for your app. Just copy `yourdomainname.up` (Yeah, don't copy the rest :) and this will be a value for your `RAILWAY_APP_NAME`.  
+- `CHAT_ID` - ID of the telegram chat where the bot is allowed to work. You can add more chat IDs, just take a look at `WORKS_CHATS` in the file [`config.py`](chat_gpt_bot/config.py) and add available environment variables on your railway app with user IDs
 - `AI_KEY` - OpenAI API Token
